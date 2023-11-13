@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--given below is font awesome CDN link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Personal Portfolio Website with Typing Effect</title>
+</head>
+<body>
+
+    <div class="container">
+        <nav>
+            <div class="logo">Portfolio<b>.</b></div>
+            <ul class="navitems">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Colification</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">blog</a></li>
+            </ul>
+
+            <div class="links">
+            <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit"><i class="linkedin fab fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100071862136834"><i class="facebook fab fa-facebook"></i></a>
+            <a href="https://www.youtube.com/channel/UCTBv-SwDJTaxZ1R1MFwn_Mw"><i class="ytube fab fa-youtube"></i></a>
+        </div>
+        </nav>
+
+
+<div class="wrapper">
+    <div class="cols cols0">
+        <h1 class="topline">Hello</h1>
+
+        <h1>I,m <span id="multiText"></span></h1>
+
+        <p id="effect"></p>
+      <div class="btns">
+        <button ><a href="document.jpg">Download CV</a></button>
+        <button class="btn2" ><a href="mailto:shahbazstudnt989@gmail.com" >Email me</a></button>
+        <button class="btn3"><a href="tel:+92-3198230584">Click for call!</a></button>
+      </div>
+    </div>
+
+
+    
+        <div class="imgbox">
+          <img src="./developer.jpg" alt="">
+             
+           
+      
+    </div>
+</div>
+</div>
+    
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js"></script>
+<script>
+
+var typed = new Typed('#multiText', {
+   strings: ["SHAHBAZ AHMED", "STUDENT", "LEARNER", "DEVELOPER", "BACKEND ENGINNER"],
+   typeSpeed: 40,
+   backSpeed: 10,
+   loop: true
+});
+
+var typed1 = new Typed('#effect', {
+   strings: ["It should be concise, informative and persuasive.It should be able to sell the reader on your skills and Show them why you are the best person for the job."],
+   typeSpeed: 20,
+   backSpeed: 10,
+   loop: true
+});
+
+   
+</script>
+
+</body>
+</html>
+
